@@ -1,0 +1,8 @@
+﻿@model PageViewModel<AlloyTraining.Models.Pages.StartPage>
+
+<ul>
+    @foreach (var item in Model.CurrentPage.MainContentArea.FilteredItems)
+    {
+        <li>@Html.ContentLink(item.ContentLink)</li>
+    }
+</ul>
