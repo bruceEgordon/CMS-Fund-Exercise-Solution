@@ -282,6 +282,8 @@
     <Folder Include="Models\Properties\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClientResources\iPhone4\device-320x480.png" />
+    <Content Include="ClientResources\iPhone4\iPhone4.css" />
     <Content Include="ClientResources\Styles\help-text-icon.css" />
     <Content Include="ClientResources\Styles\widen-editors.css" />
     <Content Include="Content\bootstrap.css" />
@@ -298,6 +300,7 @@
     <Content Include="Resources\LanguageFiles\ContentTypes.xml">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Resources\LanguageFiles\DisplayChannels.xml" />
     <Content Include="Resources\LanguageFiles\DisplayOptions.xml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

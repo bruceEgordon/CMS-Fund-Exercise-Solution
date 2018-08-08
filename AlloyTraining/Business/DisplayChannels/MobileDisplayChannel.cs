@@ -16,4 +16,26 @@ namespace AlloyTraining.Business.DisplayChannels
             return context.Request.Browser.IsMobileDevice;
         }
     }
+
+    public class iPhone5 : IDisplayResolution
+    {
+        public string Id => "iphone5";
+
+        public string Name => "iPhone 5 (320 x 568)";
+
+        public int Width => 320;
+
+        public int Height => 568;
+    }
+
+    public class iPhone4 : IDisplayResolution
+    {
+        public string Id => "iphone4";
+
+        public string Name => "iPhone 4 (320 x 480)";
+
+        public int Width => 320;
+
+        public int Height => 480;
+    }
 }
